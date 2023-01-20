@@ -1,0 +1,40 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.head {
+  border-bottom: 3px solid #FEFEFE;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+input::placeholder {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+input:active,
+input:hover,
+input:focus {
+outline: none;
+}
+
+.input-text input {
+  width: 120%;
+}
+
+.first-input input {
+  width: 90%
+}
+
+.calculator {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  position: absolute;
+  top: -50px;
+  right: 120px;
+}
+.form {
+background: #FEFEFE;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
